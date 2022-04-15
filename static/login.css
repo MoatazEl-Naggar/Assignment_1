@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+body{
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-image: url("https://img.freepik.com/free-photo/side-view-circle-chocolate-candies-black-table-jpg_140725-12879.jpg?size=626&ext=jpg&ga=GA1.2.260394061.1646755042");
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  background-color: #272727;
+}
+.login-form{
+  position: relative;
+  width: 370px;
+  height: auto;
+  background: #1b1b1b93;
+  padding: 40px 35px 60px;
+  box-sizing: border-box;
+  border: 2px solid #272727;
+  border-radius: 15px;
+  box-shadow: inset 0px 0px 2px #272727;
+}
+.text{
+  font-size: 30px;
+  color: #c7c7c7;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+form{
+  margin-top: 40px;
+}
+form .field{
+  margin-top: 20px;
+  display: flex;
+ }
+.field input,form button{
+  height: 50px;
+  width: 100%;
+  outline: none;
+  font-size: 19px;
+  color: #868686;
+  padding: 0 15px;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid #444;
+  caret-color: #f5861e;
+  background: linear-gradient(#333,#222);
+}
+input:focus{
+  color: #e9791d;
+  box-shadow: 0 0 5px #e9791d,
+              inset 0 0 5px #ec8129;
+  background: linear-gradient(#333933,#222922);
+  animation: glow .8s ease-out infinite alternate;
+}
+@keyframes glow {
+     0%{
+      border-color: #e9791d;
+      box-shadow: 0 0 5px #ec8129,
+                  inset 0 0 5px rgba(0,0,0,.1);
+    }
+     100%{
+      border-color: #9e6a25;
+      box-shadow: 0 0 20px #e9791d
+                  inset 0 0 10px #ec8129;
+    }
+}
+button{
+  margin-top: 30px;
+  border-radius: 5px!important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+button:hover{
+  color: #e9791d;
+  border: 1px solid #e9791d;
+  box-shadow: 0 0 5px #e9791d,
+              0 0 10px #e9791d,
+              0 0 15px #e9791d,
+              0 2px 0 black;
+  }
+.link{
+  margin-top: 25px;
+  color: #868686;
+  }
+.link a{
+  color: #e9791d;
+  text-decoration: none;
+}
+.link a:hover{
+  text-decoration: underline;
+}
+.alert{
+    font-size: 18px;
+    color: #c7c7c7;
+    font-weight: 400;
+    letter-spacing: 2px;
+}

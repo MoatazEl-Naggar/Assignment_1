@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <mete name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../static/style.css">
+        <!-- <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script> -->
+        <script src="../static/script.js"></script>
+        <title>Profile Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="left-nav">
+            <img src="../images/logo0.jpg" class="logo">
+            <ul>
+                <li><img src="../images/home.jpg"></li>
+                <li><img src="../images/notification.jpg"></li>
+                <!-- <li><img src="images/plus.jpg"></li> -->
+            </ul>
+        </div>
+        <div class="right-nav">
+            <div class="search">
+                <img src="../images/search.jpg">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="user-icon online" onclick="setting_menu_toggle()">
+                <img src="../images/user.jpg">
+            </div>
+        </div>
+        <!----------------------------------- setting-menu----------------------------->
+        <div class="setting-menu">
+            <div id="dark-mode" class="turn-on">
+                <span></span>
+            </div>
+            <div class="setting-menu-inner">
+                <div class="user-profile">
+                    <img src="../images/user.jpg">
+                    <div>
+                        <p style="font-weight: 550;">Zaynap Sabry</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile1">
+                    <img src="../images/feedback.jpg">
+                    <div>
+                        <p style="font-weight: 550;">Give feedback</p>
+                        <a href="#">Help us improve Focus</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="../images/setting.jpg" class="setting-icon">
+                    <a href="#">User Setting <img src="../images/arrow.jpg" width="9px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="../images/helpcenter.jpg" class="setting-icon">
+                    <a href="#">Help Center <img src="../images/arrow.jpg" width="9px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="../images/display.jpg" class="setting-icon">
+                    <a href="#">Dark Mode</a>
+                </div>
+                <div class="setting-links">
+                    <img src="../images/logout.jpg" class="setting-icon">
+                    <a href="#">Log Out <img src="../images/arrow.jpg" width="9px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="center">
+        <!----------------------------------------------------first post--------------------------------------------------->
+        <div class="main-feed">
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profilee">
+                        <img src="../images/user.jpg">
+                        <div>
+                            <p>Zaynap Sabry</p>
+                            <span>March 13 2022, 14:02</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">this our first social network project <span>@focus team</span> <a href="#">#projects</a>
+                <a href="#">#social_network</a></p>
+                <img src="../images/feed1.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../images/like1.png">120</div>
+                        <div><img src="../images/comment1.png">45</div>
+                        <div><img src="../images/share1.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="../images/user.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!----------------------------------------------------second post------------------------------------------------------>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profilee">
+                        <img src="../images/user.jpg">
+                        <div>
+                            <p>Yasmina nosier</p>
+                            <span>june 22 2021, 20:13</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">imagination follow <span>@mark design</span>
+                <a href="#">#Natural</a></p>
+                <img src="../images/2.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../images/like1.png">120</div>
+                        <div><img src="../images/comment1.png">45</div>
+                        <div><img src="../images/share1.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="../images/user.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <!-----------------------------------------------------------third post------------------------------------------------------------->
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profilee">
+                        <img src="../images/user.jpg">
+                        <div>
+                            <p>Nada yasser</p>
+                            <span>sep 18 2021, 16:08</span>
+                        </div>
+                    </div>
+                    <a href="#"> <i class="fas fa-ellipsis-v"></i> </a>
+                </div>
+                <p class="post-text">New Pic</a></p>
+                <img src="../images/3.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="../images/like1.png">120</div>
+                        <div><img src="../images/comment1.png">45</div>
+                        <div><img src="../images/share1.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="../images/user.jpg"> <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- -------------------------------------categories----------------------------------------------- -->
+        <div class="side-feed">
+            <div class="top">
+                <header style="background-image:url(../images/background.jpg)">Top Commuinties</header>
+                <div class="side">
+                <ul>
+                    <li><a class="list" href="#">Gaming</a></li>
+                    <li><a class="list" href="#">Music</a></li>
+                    <li><a class="list" href="#">TV</a></li>
+                    <li><a class="list" href="#">Health&Fitness</a></li>
+                    <li><a class="list" href="#">Programming</a></li>
+                    <li><a class="list" href="#">Memes</a></li>
+                    <li><a class="list" href="#">Travel</a></li>
+                    <li><a class="list" href="#">Tech</a></li>
+                    <li><a class="list" href="#">Sports</a></li>
+                    <li><a class="list" href="#">News</a></li>
+                    <li><a class="list" href="#">Movies</a></li>
+                    <li><a class="list" href="#">Beauty</a></li>
+                    <li><a class="list" href="#">Fashion</a></li>
+                    <li><a class="list" href="#">Food</a></li>
+                    <li><a class="list" href="#">Photography</a></li>
+                    <li><a class="list" href="#">Books&writing</a></li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="post"> 
+                <button class="post-button">
+                    <a href="#"><span>Create Post</span></a>
+                </button>
+            </div>
+
+            <div class="buttom">
+                <ul>
+                <div class="leftbuttom">    
+                    <li><a class="list1" href="#">Help</a></li>
+                    <li><a class="list1" href="#">About</a></li>
+                    <li><a class="list1" href="#">Blog</a></li>
+                    <li><a class="list1" href="#">Terms</a></li>
+                    <li><a class="list1" href="#">Content Policy</a></li>
+                </div>
+                <div class="rightbuttom">  
+                    <li><a class="list1" href="#">Privacy Policy</a></li>
+                    <li><a class="list1" href="#">Comunities</a></li>
+                    <li><a class="list1" href="#">Topics</a></li>
+                </div>      
+                </ul>
+                <br><br>
+                <p> &nbsp&nbsp  Focus &#169 2022, All rights reserved</p>
+            </div>
+        </div>
+        
+
+    </div>    
+    
+    
+<script src="../static/script.js"></script>
+</body>
+
+</html>
