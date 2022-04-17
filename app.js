@@ -1,6 +1,10 @@
 const express = require('express');
 const mysql = require('mysql');
+const cookieParser = require('cookie-parser');
 const app = express();
+const router = require('./router.js');
+const auth = require('./auth.js');
+
 app.set('view engine','hbs')
 
 
@@ -30,9 +34,9 @@ app.use('/images', express.static('images'));
 app.use(express.urlencoded({extended : false}));
 // to make sure we json data
 app.use(express.json());
+app.use(cookieParser());
 
-const router = require('./router.js');
-const auth = require('./auth.js');
+
 app.use('/', router);
 app.use('/auth', auth);
 

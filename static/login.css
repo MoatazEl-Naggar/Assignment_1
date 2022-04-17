@@ -96,9 +96,3 @@ button:hover{
 .link a:hover{
   text-decoration: underline;
 }
-.alert{
-    font-size: 18px;
-    color: #c7c7c7;
-    font-weight: 400;
-    letter-spacing: 2px;
-}

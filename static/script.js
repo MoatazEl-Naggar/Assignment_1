@@ -30,6 +30,4 @@ else {
     localStorage.setItem("theme", "light");
 }
 
-function logout() {
 
-}
